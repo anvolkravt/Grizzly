@@ -1,0 +1,40 @@
+{
+  "name": "grizzly",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anvolkravt/Grizzly.git"
+  },
+  "author": "anvolkravt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anvolkravt/Grizzly/issues"
+  },
+  "homepage": "https://github.com/anvolkravt/Grizzly#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svgmin": "^2.2.0",
+    "node-sass": "^4.13.1",
+    "stylelint": "^13.2.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.0.0",
+    "stylelint-scss": "^3.16.0"
+  },
+  "browserslist": [
+    "last 4 versions"
+  ]
+}
