@@ -4,7 +4,9 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylelint": "stylelint app/**/*.scss",
+    "stylelint_fix": "stylelint app/**/*.scss --fix"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,26 @@
+$white: #fff;
+$white-transparent-low: rgba(255, 255, 255, .8);
+
+$gray-dark: #333;
+$gray: #999;
+$gray-semi: #ccc;
+$gray-light: #c4c4c4;
+$gray-very-light: #e5e5e5;
+
+$blue: #0c4da2;
+$blue-transparent-low: rgba(12, 77, 162, .7);
+$blue-transparent-semi: rgba(12, 77, 162, .6);
+$blue-transparent-high: rgba(12, 77, 162, .2);
+$blue-transparent-extremely: rgba(12, 77, 162, .07);
+
+$text-primary: $gray-dark;
+$text-secondary: $gray;
+
+$text-header-button: $white;
+$text-header-user-file: $blue;
+
+$header-bg: $white-transparent-low;
+$header-top-bar-border: $gray-semi;
+$header-button-bg: $blue;
+$header-bottom-bar-divider-bg: $gray-semi;
+$header-user-file-bg: $blue;

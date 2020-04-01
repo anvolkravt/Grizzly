@@ -18,7 +18,7 @@ gulp.task('sass', function() {
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('./dist/css'));
+    .pipe(gulp.dest('./dist/static/css'));
 });
 
 gulp.task('pug', function() {

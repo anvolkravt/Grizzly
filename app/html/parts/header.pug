@@ -1,0 +1,38 @@
+header.header
+    .content
+        .header__top-bar
+            .header__logo
+                h1.logo__title_hidden SITEK
+                img(src="../static/images/logo.png", alt="SITEK logo").logo__image
+            .header__parameters-contacts
+                .header__parameters
+                    ul.parameters__lang-switcher
+                        li.lang-switcher__item
+                            a(href="#").lang-switcher__link.lang-switcher__link_current РУС
+                        li.lang-switcher__item
+                            a(href="#").lang-switcher__link ENG
+                    .parameters__currency Цены в 
+                        select(name="currency").currency__select
+                            option(value="RUB").currency__item RUB
+                            option(value="BYN").currency__item BYN
+                .header__contacts
+                    .contacts__bel-phone Беларусь 
+                        span.contacts__phone-number +375 (29) 617-00-15
+                    .contacts__rus-phone Россия 
+                        span.contacts__phone-number +7 (481) 230-25-59
+                        .contacts__free-call звонок бесплатный
+                button.header__contact-button КОНСУЛЬТАЦИЯ
+        .header__bottom-bar
+            .header__production
+                include production.pug
+            .header__user-bar
+                .user-bar__title SITEKGRAM
+                a(href='#').user-bar__user-file
+                    svg.user-file__svg.icon.icon-flag
+                        use(xlink:href='../static/images/svg_sprite/symbol/sprite.svg#flag')
+                    | МОЙ ФАЙЛ
+                    div.user-file__saved-amount 10
+
+
+
+
