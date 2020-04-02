@@ -1,0 +1,53 @@
+footer.footer
+    .content
+        img(src="../static/images/logo.png", alt="logo").footer__logo
+        .footer__info
+            .footer__top-bar
+                .footer__production
+                    include production.pug
+                .footer__phones
+                    .phones__item
+                        p.phones__number +7 800 350-74-08
+                        p.phones__info Звонок по России бесплатный
+                    .phones__item 
+                        p.phones__number +375 (29) 617-00-15
+                        p.phones__info Беларусь
+            .footer__bottom-bar
+                .footer__contacts
+                    .contacts__item 
+                        .contacts__address
+                            span.contacts__item_highlighted Российская Федерация, 
+                            | 214005, Смоленск ул. Свердлова, 24, офис 3/1
+                            p.contacts__time 8.00-17.00 по МСК
+                        .contacts__phone-mail
+                            p.contacts__phone +7 (800) 350-74-04
+                            p.contacts__mail info@sitek-group.ru
+                    .contacts__item 
+                        .contacts__address
+                            span.contacts__item_highlighted Республика Беларусь, 
+                            | 220040, Минск, ул. Сурганова, 88, помещение 3, офис 1
+                            p.contacts__time 9.00-18.00 по МСК   
+                        .contacts__phone-mail
+                            p.contacts__phone +375 (17) 217-00-15
+                            p.contacts__mail info@sitek-group.ru
+                .footer__social
+                    .footer__social-media
+                        a.social-media__link
+                            svg.social-media__svg.icon.icon-vk
+                                use(xlink:href='../static/images/svg_sprite/symbol/sprite.svg#vk')
+                        a.social-media__link
+                            svg.social-media__svg.icon.icon-facebook
+                                use(xlink:href='../static/images/svg_sprite/symbol/sprite.svg#facebook')
+                        a.social-media__link
+                            svg.social-media__svg.icon.icon-OK
+                                use(xlink:href='../static/images/svg_sprite/symbol/sprite.svg#OK')
+                        a.social-media__link
+                            svg.social-media__svg.icon.icon-twitter
+                                use(xlink:href='../static/images/svg_sprite/symbol/sprite.svg#twitter')
+                        a.social-media__link
+                            svg.social-media__svg.icon.icon-youtube
+                                use(xlink:href='../static/images/svg_sprite/symbol/sprite.svg#youtube')
+                        a.social-media__link
+                            svg.social-media__svg.icon.icon-instagram
+                                use(xlink:href='../static/images/svg_sprite/symbol/sprite.svg#instagram')
+                    p.footer__not-public-offer Не является публичной офертой

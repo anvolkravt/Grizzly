@@ -6,6 +6,7 @@ $gray: #999;
 $gray-semi: #ccc;
 $gray-light: #c4c4c4;
 $gray-very-light: #e5e5e5;
+$gray-extremely-light: #f5f5f5;
 $gray-transparent: rgba(171, 171, 175, 0.45);
 
 $blue: #0c4da2;
@@ -49,3 +50,6 @@ $filter-search-bg: $blue-transparent-extremely;
 $filter-loupe: $blue-transparent-low;
 
 $catalog-card-parameter-bg: $blue-transparent-high;
+
+$footer-bg: $gray-extremely-light;
+$footer-top-bar-border: $gray-semi;

@@ -22,8 +22,8 @@
   }
 
   .slider__body {
-    width: 1064px;
     margin: auto;
+    width: 1064px;
   }
 
   .slider__pagination {
@@ -35,8 +35,8 @@
     }
 
     &_next {
-      top: 50%;
       right: 0;
+      top: 50%;
       transform: translateY(-50%);
     }
   }
@@ -44,16 +44,16 @@
 
 .filter {
   &__area {
+    box-sizing: border-box;
     display: flex;
     height: 274px;
     justify-items: center;
     padding-bottom: 15px;
-    box-sizing: border-box;
   }
 
   &__options {
-    overflow-y: auto;
     height: 155px;
+    overflow-y: auto;
   }
 
   &__parameter {
@@ -156,11 +156,11 @@
 
 .slider {
   &__catalog-item {
-    width: 340px;
-    height: 480px;
     border-radius: 15px;
-    box-shadow: 0px 0px 15px $box-shadow;
+    box-shadow: 0 0 15px $box-shadow;
+    height: 480px;
     margin: 0 10px;
+    width: 340px;
 
     // &:not(:nth-child(3n + 3)) {
     //   margin-right: 20px;
@@ -175,7 +175,7 @@
   }
 
   &__text {
-    padding: 0 22px 30px 22px;
+    padding: 0 22px 30px;
   }
 
   &__title {
@@ -199,15 +199,15 @@
   }
 
   &__parameters-item {
-    font-size: 14px;
-    line-height: 150%;
-    color: $text-catalog-card-parameter;
     background: $catalog-card-parameter-bg;
-    display: inline-block;
-    height: 26px;
-    line-height: 26px;
     border-radius: 6px;
-    padding: 0 10px;
     box-sizing: border-box;
+    color: $text-catalog-card-parameter;
+    display: inline-block;
+    font-size: 14px;
+    height: 26px;
+    line-height: 150%;
+    line-height: 26px;
+    padding: 0 10px;
   }
 }

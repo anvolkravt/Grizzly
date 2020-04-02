@@ -1,0 +1,120 @@
+.footer {
+  background: $footer-bg;
+  color: $text-primary;
+
+  .content {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 45px;
+  }
+
+  &__logo {
+    margin-right: 55px;
+  }
+
+  &__info {
+    flex-grow: 1;
+  }
+
+  &__top-bar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-right: 15px;
+    border-bottom: solid 1px $footer-top-bar-border;
+  }
+
+  &__production {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+    font-family: 'Fira-Sans-Bold', sans-serif;
+
+    .production {
+      &__title {
+        font-size: 26px;
+        margin: 0;
+      }
+    }
+  }
+
+  &__phones {
+    text-align: right;
+    margin-left: 70px;
+  }
+
+  &__bottom-bar {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+  }
+
+  &__contacts {
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  &__social {
+    color: $text-secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 10px;
+  }
+}
+
+.phones {
+  &__number {
+    font-size: 20px;
+    font-family: 'Fira-Sans-Bold', sans-serif;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  &__info {
+    font-size: 14px;
+    color: $text-secondary;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.contacts {
+  &__item {
+    display: flex;
+    margin-bottom: 20px;
+
+    &_highlighted {
+      font-family: 'Fira-Sans-Bold', sans-serif;
+    }
+  }
+
+  &__address {
+    width: 280px;
+    margin-right: 60px;
+  }
+
+  &__time {
+    margin: 0;
+  }
+
+  &__phone,
+  &__mail {
+    margin: 0;
+  }
+}
+
+.social-media {
+  &__link {
+    margin-left: 25px;
+  }
+
+  &__svg {
+    // font-size: 14px;
+    max-height: 20px;
+    max-width: 20px;
+  }
+}
