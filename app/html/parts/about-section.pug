@@ -1,0 +1,40 @@
+section.about-section
+    .content
+        aside.about-section__aside
+            ul.aside__options
+                li.aside__options-item
+                    a(href='#you-have').aside__options-link  У Вас есть
+                li.aside__options-item.aside__options-item_active 
+                    a(href='#').aside__options-link Мы предлагаем
+                li.aside__options-item 
+                    a(href='#').aside__options-link Как это работает
+                li.aside__options-item 
+                    a(href='#').aside__options-link SINUMERIC 808D
+                li.aside__options-item 
+                    a(href='#').aside__options-link Кто мы
+            a(href="#").aside__link SITEKGRAM
+            a(href="#connection-ways").aside__link ШЕСТЬ способов связаться с нами
+            .aside__decoration
+        .about-section__main
+            .about-section__slider
+                include slider-about.pug
+            .about-section__you-have#you-have
+                h3.you-have__slogan 
+                    |У ВАС ЕСТЬ ВСЁ,
+                    br
+                    |ЧТОБЫ МОДЕРНИЗИРОВАТЬ
+                    br
+                    |СТАРЫЙ СТАНОК
+                .you-have__pros-cons
+                    .you-have__lists
+                        ul.pros-cons__list 
+                            h4.pros-cons__sub-title НА КАЖДОМ ПРЕДПРИЯТИИ:
+                            li.pros-cons__list-item Надежные, “неубиваемые” советские станки типа 
+                                span.pros-cons__list-item_highlighted 16A20ФЗ, ГФ2171ФЗ, 16МЗ0ФЗ
+                            li.pros-cons__list-item Штат опытных слесарей и механиков, способных восстановить станок
+                        ul.pros-cons__list 
+                            h4.pros-cons__sub-title НО:
+                            li.pros-cons__list-item Устаревшая электрониа станка нуждается в частых ремонтах
+                            li.pros-cons__list-item Нет опытных сотрудников для внедрения новой системы управления
+                    .you-have__video
+                        video(src="" poster='../static/images/video.png').video__file

@@ -1,6 +1,10 @@
 @import 'normalize';
 @import 'color_palette';
-@import '_sprite';
+@import 'libs/slick.scss';
+@import 'libs/slick-theme.scss';
+@import 'sprite';
 @import 'fonts';
 @import 'common';
 @import 'header';
+@import 'about-section';
+@import 'catalog';

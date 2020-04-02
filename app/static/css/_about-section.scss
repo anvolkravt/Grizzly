@@ -1,0 +1,169 @@
+.about-section {
+  .content {
+    display: flex;
+    padding-top: 60px;
+  }
+
+  &__aside {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fira-Sans-Bold', sans-serif;
+    min-width: 290px;
+  }
+
+  &__main {
+    padding-left: 20px;
+  }
+
+  &__slider {
+    align-items: center;
+    display: flex;
+  }
+
+  .slider {
+    &__body {
+      height: 400px;
+      margin-left: 24px;
+      margin-right: 24px;
+      width: 720px;
+    }
+
+    &__item {
+      border-radius: 6px;
+      height: 400px;
+      width: 720px;
+    }
+  }
+
+  &__you-have {
+    margin-top: 80px;
+  }
+}
+
+.aside {
+  &__options {
+    border-radius: 15px;
+    box-shadow: 0 0 18px $box-shadow;
+    list-style: none;
+    margin-bottom: 0;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-left: 0;
+
+    &-item {
+      color: $text-primary;
+      height: 58px;
+      padding-left: 15px;
+
+      &_active {
+        background: $about-section-active-link-bg;
+        color: $text-about-section-active-link;
+        padding-left: 30px;
+      }
+    }
+
+    &-link {
+      color: inherit;
+      line-height: 58px;
+      text-decoration: none;
+    }
+  }
+
+  &__link {
+    background: $about-section-link-bg;
+    border-radius: 6px;
+    color: $text-about-section-aside-link;
+    height: 46px;
+    line-height: 46px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  &__decoration {
+    background: $about-section-link-bg;
+    flex-grow: 1;
+    margin-top: 15px;
+  }
+}
+
+.you-have {
+  &__slogan {
+    color: $text-secondary;
+    font-family: 'Fira-Sans-Bold', sans-serif;
+    font-size: 42px;
+    line-height: 140%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    text-align: center;
+    width: 70%;
+  }
+
+  &__pros-cons {
+    align-items: center;
+    color: $text-primary;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    padding-bottom: 60px;
+    padding-right: 70px;
+    position: relative;
+
+    &::before {
+      background: $about-section-decoration-bg;
+      content: '';
+      height: 100%;
+      position: absolute;
+      right: 40%;
+      top: -40px;
+      width: 100vw;
+      z-index: -1;
+    }
+  }
+
+  &__lists {
+    width: 265px;
+  }
+
+  &__video {
+    height: 230px;
+    width: 414px;
+
+    .video__file {
+      border-radius: 6px;
+      width: inherit;
+    }
+  }
+}
+
+.pros-cons {
+  &__list {
+    margin-bottom: 40px;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  &__sub-title {
+    font-family: 'Fira-Sans-Bold', sans-serif;
+    font-size: 18px;
+  }
+
+  &__list-item {
+    font-family: 'Fira-Sans-Regular', sans-serif;
+    line-height: 150%;
+    list-style: none;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    position: relative;
+
+    &_highlighted {
+      font-family: 'Fira-Sans-Bold', sans-serif;
+    }
+
+    &::before {
+      content: url('../images/svg_inline/tick.svg');
+      left: 0;
+      position: absolute;
+    }
+  }
+}

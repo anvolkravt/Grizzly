@@ -1,0 +1,56 @@
+section.catalog 
+    .content
+        h2.catalog__title КАТАЛОГ РЕТФРОФИТ-КОМПЛЕКТОВ
+        .catalog__filter 
+            .filter__area
+                .filter__parameter
+                    h3.filter__sub-title ТИП СТАНКА
+                    .filter__options
+                        .filter__item
+                            input#milling(type="checkbox", name="machine-type", value="Фрезерный").filter__checkbox
+                            label(for="milling").filter__label Фрезерный
+                        .filter__item
+                            input#turning(type="checkbox", name="machine-type", value="Токарный").filter__checkbox
+                            label(for="turning").filter__label Токарный
+                .filter__parameter
+                    h3.filter__sub-title МОДЕЛЬ СТАНКА
+                    .filter__options
+                        .filter__sub-sub-title Бренд 1
+                        .filter__item
+                            input#brand1_1(type="checkbox", name="machine-model", value="16А20").filter__checkbox
+                            label(for="brand1_1").filter__label 16А20
+                        .filter__item
+                            input#brand1_2(type="checkbox", name="machine-model", value="16М30").filter__checkbox
+                            label(for="brand1_2").filter__label 16М30
+                        .filter__sub-sub-title Бренд 2
+                        .filter__item
+                            input#brand2_1(type="checkbox", name="machine-model", value="18N45").filter__checkbox
+                            label(for="brand2_1").filter__label 18N45
+                        .filter__item
+                            input#brand2_2(type="checkbox", name="machine-model", value="18H76").filter__checkbox
+                            label(for="brand2_2").filter__label 18H76
+                .filter__parameter
+                    h3.filter__sub-title ВАРИАНТ ПОСТАВКИ
+                        svg.filter__sub-title-info.icon.icon-question
+                            use(xlink:href='../static/images/svg_sprite/symbol/sprite.svg#question')
+                    .filter__options
+                        .filter__item
+                            input#moduls(type="checkbox", name="delivery-option", value="Модули").filter__checkbox
+                            label(for="moduls").filter__label Модули
+                        .filter__item
+                            input#panels(type="checkbox", name="delivery-option", value="Монтажные панели").filter__checkbox
+                            label(for="panels").filter__label Монтажные панели
+                        .filter__item
+                            input#electro(type="checkbox", name="delivery-option", value="Электрошкаф").filter__checkbox
+                            label(for="electro").filter__label Электрошкаф
+            .filter__search-bar
+                input#search(type="text", placeholder="Поиск").filter__search-input
+                button.filter__search-button
+                    svg.filter__search-button-svg.icon.icon-loupe
+                        use(xlink:href='../static/images/svg_sprite/symbol/sprite.svg#loupe')
+                button#clear-filter.filter__clear-button Очистить фильтр
+                    svg.filter__clear-button-svg.icon.icon-cross
+                        use(xlink:href='../static/images/svg_sprite/symbol/sprite.svg#cross')
+        .catalog__slider
+            include slider-catalog.pug
+

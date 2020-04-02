@@ -55,6 +55,258 @@
           </div>
         </div>
       </header>
+      <main>
+        <section class="about-section">
+          <div class="content">
+            <aside class="about-section__aside">
+              <ul class="aside__options">
+                <li class="aside__options-item"><a class="aside__options-link" href="#you-have"> У Вас есть</a></li>
+                <li class="aside__options-item aside__options-item_active"> <a class="aside__options-link" href="#">Мы предлагаем</a></li>
+                <li class="aside__options-item"> <a class="aside__options-link" href="#">Как это работает</a></li>
+                <li class="aside__options-item"> <a class="aside__options-link" href="#">SINUMERIC 808D</a></li>
+                <li class="aside__options-item"> <a class="aside__options-link" href="#">Кто мы</a></li>
+              </ul><a class="aside__link" href="#">SITEKGRAM</a><a class="aside__link" href="#connection-ways">ШЕСТЬ способов связаться с нами</a>
+              <div class="aside__decoration"></div>
+            </aside>
+            <div class="about-section__main">
+              <div class="about-section__slider">
+                <button class="slider__pagination slider__pagination_prev" id="pagination-about-prev">
+                  <svg class="slider__pagination-svg icon icon-arrow-left">
+                    <use xlink:href="../static/images/svg_sprite/symbol/sprite.svg#arrow-left"></use>
+                  </svg>
+                </button>
+                <div class="slider__body" id="slider-about">
+                  <video class="slider__item" src="" poster="../static/images/video.png"></video>
+                  <video class="slider__item" src="" poster="../static/images/video.png"></video>
+                  <video class="slider__item" src="" poster="../static/images/video.png"></video>
+                  <video class="slider__item" src="" poster="../static/images/video.png"></video>
+                  <video class="slider__item" src="" poster="../static/images/video.png"></video>
+                  <video class="slider__item" src="" poster="../static/images/video.png"></video>
+                </div>
+                <button class="slider__pagination slider__pagination_next" id="pagination-about-next">
+                  <svg class="slider__pagination-svg icon icon-arrow-right">
+                    <use xlink:href="../static/images/svg_sprite/symbol/sprite.svg#arrow-right"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="about-section__you-have" id="you-have">
+                <h3 class="you-have__slogan">
+                   У ВАС ЕСТЬ ВСЁ,<br/>ЧТОБЫ МОДЕРНИЗИРОВАТЬ<br/>СТАРЫЙ СТАНОК</h3>
+                <div class="you-have__pros-cons">
+                  <div class="you-have__lists">
+                    <ul class="pros-cons__list"> 
+                      <h4 class="pros-cons__sub-title">НА КАЖДОМ ПРЕДПРИЯТИИ:</h4>
+                      <li class="pros-cons__list-item">Надежные, “неубиваемые” советские станки типа <span class="pros-cons__list-item_highlighted">16A20ФЗ, ГФ2171ФЗ, 16МЗ0ФЗ</span></li>
+                      <li class="pros-cons__list-item">Штат опытных слесарей и механиков, способных восстановить станок</li>
+                    </ul>
+                    <ul class="pros-cons__list"> 
+                      <h4 class="pros-cons__sub-title">НО:</h4>
+                      <li class="pros-cons__list-item">Устаревшая электрониа станка нуждается в частых ремонтах</li>
+                      <li class="pros-cons__list-item">Нет опытных сотрудников для внедрения новой системы управления</li>
+                    </ul>
+                  </div>
+                  <div class="you-have__video">
+                    <video class="video__file" src="" poster="../static/images/video.png"></video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="catalog"> 
+          <div class="content">
+            <h2 class="catalog__title">КАТАЛОГ РЕТФРОФИТ-КОМПЛЕКТОВ</h2>
+            <div class="catalog__filter"> 
+              <div class="filter__area">
+                <div class="filter__parameter">
+                  <h3 class="filter__sub-title">ТИП СТАНКА</h3>
+                  <div class="filter__options">
+                    <div class="filter__item">
+                      <input class="filter__checkbox" id="milling" type="checkbox" name="machine-type" value="Фрезерный"/>
+                      <label class="filter__label" for="milling">Фрезерный</label>
+                    </div>
+                    <div class="filter__item">
+                      <input class="filter__checkbox" id="turning" type="checkbox" name="machine-type" value="Токарный"/>
+                      <label class="filter__label" for="turning">Токарный</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__parameter">
+                  <h3 class="filter__sub-title">МОДЕЛЬ СТАНКА</h3>
+                  <div class="filter__options">
+                    <div class="filter__sub-sub-title">Бренд 1</div>
+                    <div class="filter__item">
+                      <input class="filter__checkbox" id="brand1_1" type="checkbox" name="machine-model" value="16А20"/>
+                      <label class="filter__label" for="brand1_1">16А20</label>
+                    </div>
+                    <div class="filter__item">
+                      <input class="filter__checkbox" id="brand1_2" type="checkbox" name="machine-model" value="16М30"/>
+                      <label class="filter__label" for="brand1_2">16М30</label>
+                    </div>
+                    <div class="filter__sub-sub-title">Бренд 2</div>
+                    <div class="filter__item">
+                      <input class="filter__checkbox" id="brand2_1" type="checkbox" name="machine-model" value="18N45"/>
+                      <label class="filter__label" for="brand2_1">18N45</label>
+                    </div>
+                    <div class="filter__item">
+                      <input class="filter__checkbox" id="brand2_2" type="checkbox" name="machine-model" value="18H76"/>
+                      <label class="filter__label" for="brand2_2">18H76</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__parameter">
+                  <h3 class="filter__sub-title">ВАРИАНТ ПОСТАВКИ
+                    <svg class="filter__sub-title-info icon icon-question">
+                      <use xlink:href="../static/images/svg_sprite/symbol/sprite.svg#question"></use>
+                    </svg>
+                  </h3>
+                  <div class="filter__options">
+                    <div class="filter__item">
+                      <input class="filter__checkbox" id="moduls" type="checkbox" name="delivery-option" value="Модули"/>
+                      <label class="filter__label" for="moduls">Модули</label>
+                    </div>
+                    <div class="filter__item">
+                      <input class="filter__checkbox" id="panels" type="checkbox" name="delivery-option" value="Монтажные панели"/>
+                      <label class="filter__label" for="panels">Монтажные панели</label>
+                    </div>
+                    <div class="filter__item">
+                      <input class="filter__checkbox" id="electro" type="checkbox" name="delivery-option" value="Электрошкаф"/>
+                      <label class="filter__label" for="electro">Электрошкаф</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="filter__search-bar">
+                <input class="filter__search-input" id="search" type="text" placeholder="Поиск"/>
+                <button class="filter__search-button">
+                  <svg class="filter__search-button-svg icon icon-loupe">
+                    <use xlink:href="../static/images/svg_sprite/symbol/sprite.svg#loupe"></use>
+                  </svg>
+                </button>
+                <button class="filter__clear-button" id="clear-filter">Очистить фильтр
+                  <svg class="filter__clear-button-svg icon icon-cross">
+                    <use xlink:href="../static/images/svg_sprite/symbol/sprite.svg#cross"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="catalog__slider">
+              <button class="slider__pagination slider__pagination_prev" id="pagination-catalog-prev">
+                <svg class="slider__pagination-svg icon icon-arrow-left">
+                  <use xlink:href="../static/images/svg_sprite/symbol/sprite.svg#arrow-left"></use>
+                </svg>
+              </button>
+              <div class="slider__body" id="slider-catalog">
+                <div class="slider__catalog-item"><img class="catalog-item__image" src="../static/images/agregat.png"/>
+                  <div class="catalog-item__text">
+                    <h3 class="catalog-item__title">РЕТРОФИТ-КОМПЛЕКТ ДЛЯ СТАНКА 16А20</h3>
+                    <p class="catalog-item__description">Не дорогое ЧПУ, созданное SIEMENS, для конкуренции на азиатском рынке и производится в количестве более 10000 штук в год...</p>
+                    <p class="catalog-item__price">Цена <span class="catalog-item__price_highlighted">от 6 000 €</span></p>
+                    <div class="catalog-item__parameters">
+                      <div class="catalog-item__parameters-item">Фрезерный</div>
+                      <div class="catalog-item__parameters-item">16А20</div>
+                      <div class="catalog-item__parameters-item">...</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__catalog-item"><img class="catalog-item__image" src="../static/images/agregat.png"/>
+                  <div class="catalog-item__text">
+                    <h3 class="catalog-item__title">РЕТРОФИТ-КОМПЛЕКТ ДЛЯ СТАНКА 16А20</h3>
+                    <p class="catalog-item__description">Не дорогое ЧПУ, созданное SIEMENS, для конкуренции на азиатском рынке и производится в количестве более 10000 штук в год...</p>
+                    <p class="catalog-item__price">Цена <span class="catalog-item__price_highlighted">от 6 000 €</span></p>
+                    <div class="catalog-item__parameters">
+                      <div class="catalog-item__parameters-item">Фрезерный</div>
+                      <div class="catalog-item__parameters-item">16А20</div>
+                      <div class="catalog-item__parameters-item">...</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__catalog-item"><img class="catalog-item__image" src="../static/images/agregat.png"/>
+                  <div class="catalog-item__text">
+                    <h3 class="catalog-item__title">РЕТРОФИТ-КОМПЛЕКТ ДЛЯ СТАНКА 16А20</h3>
+                    <p class="catalog-item__description">Не дорогое ЧПУ, созданное SIEMENS, для конкуренции на азиатском рынке и производится в количестве более 10000 штук в год...</p>
+                    <p class="catalog-item__price">Цена <span class="catalog-item__price_highlighted">от 6 000 €</span></p>
+                    <div class="catalog-item__parameters">
+                      <div class="catalog-item__parameters-item">Фрезерный</div>
+                      <div class="catalog-item__parameters-item">16А20</div>
+                      <div class="catalog-item__parameters-item">...</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__catalog-item"><img class="catalog-item__image" src="../static/images/agregat.png"/>
+                  <div class="catalog-item__text">
+                    <h3 class="catalog-item__title">РЕТРОФИТ-КОМПЛЕКТ ДЛЯ СТАНКА 16А20</h3>
+                    <p class="catalog-item__description">Не дорогое ЧПУ, созданное SIEMENS, для конкуренции на азиатском рынке и производится в количестве более 10000 штук в год...</p>
+                    <p class="catalog-item__price">Цена <span class="catalog-item__price_highlighted">от 6 000 €</span></p>
+                    <div class="catalog-item__parameters">
+                      <div class="catalog-item__parameters-item">Фрезерный</div>
+                      <div class="catalog-item__parameters-item">16А20</div>
+                      <div class="catalog-item__parameters-item">...</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__catalog-item"><img class="catalog-item__image" src="../static/images/agregat.png"/>
+                  <div class="catalog-item__text">
+                    <h3 class="catalog-item__title">РЕТРОФИТ-КОМПЛЕКТ ДЛЯ СТАНКА 16А20</h3>
+                    <p class="catalog-item__description">Не дорогое ЧПУ, созданное SIEMENS, для конкуренции на азиатском рынке и производится в количестве более 10000 штук в год...</p>
+                    <p class="catalog-item__price">Цена <span class="catalog-item__price_highlighted">от 6 000 €</span></p>
+                    <div class="catalog-item__parameters">
+                      <div class="catalog-item__parameters-item">Фрезерный</div>
+                      <div class="catalog-item__parameters-item">16А20</div>
+                      <div class="catalog-item__parameters-item">...</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__catalog-item"><img class="catalog-item__image" src="../static/images/agregat.png"/>
+                  <div class="catalog-item__text">
+                    <h3 class="catalog-item__title">РЕТРОФИТ-КОМПЛЕКТ ДЛЯ СТАНКА 16А20</h3>
+                    <p class="catalog-item__description">Не дорогое ЧПУ, созданное SIEMENS, для конкуренции на азиатском рынке и производится в количестве более 10000 штук в год...</p>
+                    <p class="catalog-item__price">Цена <span class="catalog-item__price_highlighted">от 6 000 €</span></p>
+                    <div class="catalog-item__parameters">
+                      <div class="catalog-item__parameters-item">Фрезерный</div>
+                      <div class="catalog-item__parameters-item">16А20</div>
+                      <div class="catalog-item__parameters-item">...</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__catalog-item"><img class="catalog-item__image" src="../static/images/agregat.png"/>
+                  <div class="catalog-item__text">
+                    <h3 class="catalog-item__title">РЕТРОФИТ-КОМПЛЕКТ ДЛЯ СТАНКА 16А20</h3>
+                    <p class="catalog-item__description">Не дорогое ЧПУ, созданное SIEMENS, для конкуренции на азиатском рынке и производится в количестве более 10000 штук в год...</p>
+                    <p class="catalog-item__price">Цена <span class="catalog-item__price_highlighted">от 6 000 €</span></p>
+                    <div class="catalog-item__parameters">
+                      <div class="catalog-item__parameters-item">Фрезерный</div>
+                      <div class="catalog-item__parameters-item">16А20</div>
+                      <div class="catalog-item__parameters-item">...</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__catalog-item"><img class="catalog-item__image" src="../static/images/agregat.png"/>
+                  <div class="catalog-item__text">
+                    <h3 class="catalog-item__title">РЕТРОФИТ-КОМПЛЕКТ ДЛЯ СТАНКА 16А20</h3>
+                    <p class="catalog-item__description">Не дорогое ЧПУ, созданное SIEMENS, для конкуренции на азиатском рынке и производится в количестве более 10000 штук в год...</p>
+                    <p class="catalog-item__price">Цена <span class="catalog-item__price_highlighted">от 6 000 €</span></p>
+                    <div class="catalog-item__parameters">
+                      <div class="catalog-item__parameters-item">Фрезерный</div>
+                      <div class="catalog-item__parameters-item">16А20</div>
+                      <div class="catalog-item__parameters-item">...</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="slider__pagination slider__pagination_next" id="pagination-catalog-next">
+                <svg class="slider__pagination-svg icon icon-arrow-right">
+                  <use xlink:href="../static/images/svg_sprite/symbol/sprite.svg#arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
+    <script src="../static/js/libs/jquery.min.js"></script>
+    <script src="../static/js/libs/slick.min.js"></script>
+    <script src="../static/js/slider.js"></script>
+    <script src="../static/js/clear-filter.js"></script>
   </body>
 </html>

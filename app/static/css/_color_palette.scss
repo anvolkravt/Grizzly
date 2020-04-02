@@ -1,17 +1,18 @@
 $white: #fff;
-$white-transparent-low: rgba(255, 255, 255, .8);
+$white-transparent-low: rgba(255, 255, 255, 0.8);
 
 $gray-dark: #333;
 $gray: #999;
 $gray-semi: #ccc;
 $gray-light: #c4c4c4;
 $gray-very-light: #e5e5e5;
+$gray-transparent: rgba(171, 171, 175, 0.45);
 
 $blue: #0c4da2;
-$blue-transparent-low: rgba(12, 77, 162, .7);
-$blue-transparent-semi: rgba(12, 77, 162, .6);
-$blue-transparent-high: rgba(12, 77, 162, .2);
-$blue-transparent-extremely: rgba(12, 77, 162, .07);
+$blue-transparent-low: rgba(12, 77, 162, 0.7);
+$blue-transparent-semi: rgba(12, 77, 162, 0.6);
+$blue-transparent-high: rgba(12, 77, 162, 0.2);
+$blue-transparent-extremely: rgba(12, 77, 162, 0.07);
 
 $text-primary: $gray-dark;
 $text-secondary: $gray;
@@ -19,8 +20,32 @@ $text-secondary: $gray;
 $text-header-button: $white;
 $text-header-user-file: $blue;
 
+$text-about-section-active-link: $blue;
+$text-about-section-aside-link: $blue;
+
+$text-catalog-card-parameter: $blue;
+
+$box-shadow: $gray-transparent;
+
 $header-bg: $white-transparent-low;
 $header-top-bar-border: $gray-semi;
 $header-button-bg: $blue;
 $header-bottom-bar-divider-bg: $gray-semi;
 $header-user-file-bg: $blue;
+
+$about-section-active-link-bg: $blue-transparent-extremely;
+$about-section-link-bg: $blue-transparent-high;
+$about-section-slider-pagination-bg: $blue-transparent-extremely;
+$about-section-slider-pagination-arrow: $blue-transparent-semi;
+$about-section-slider-pagination-dot-bg: $blue;
+$about-section-decoration-bg: $blue-transparent-extremely;
+
+$filter-separation-line-bg: $blue-transparent-high;
+$filter-checkbox-border: $gray-light;
+$filter-checkbox-bg: $white;
+$filter-question: $gray;
+$filter-question-bg: $gray-very-light;
+$filter-search-bg: $blue-transparent-extremely;
+$filter-loupe: $blue-transparent-low;
+
+$catalog-card-parameter-bg: $blue-transparent-high;
