@@ -1,5 +1,5 @@
 $white: #fff;
-$white-transparent-low: rgba(255, 255, 255, 0.8);
+$white-transparent-low: rgba(255, 255, 255, .8);
 
 $gray-dark: #333;
 $gray: #999;
@@ -7,13 +7,13 @@ $gray-semi: #ccc;
 $gray-light: #c4c4c4;
 $gray-very-light: #e5e5e5;
 $gray-extremely-light: #f5f5f5;
-$gray-transparent: rgba(171, 171, 175, 0.45);
+$gray-transparent: rgba(171, 171, 175, .45);
 
 $blue: #0c4da2;
-$blue-transparent-low: rgba(12, 77, 162, 0.7);
-$blue-transparent-semi: rgba(12, 77, 162, 0.6);
-$blue-transparent-high: rgba(12, 77, 162, 0.2);
-$blue-transparent-extremely: rgba(12, 77, 162, 0.07);
+$blue-transparent-low: rgba(12, 77, 162, .7);
+$blue-transparent-semi: rgba(12, 77, 162, .6);
+$blue-transparent-high: rgba(12, 77, 162, .2);
+$blue-transparent-extremely: rgba(12, 77, 162, .07);
 
 $text-primary: $gray-dark;
 $text-secondary: $gray;
@@ -53,3 +53,8 @@ $catalog-card-parameter-bg: $blue-transparent-high;
 
 $footer-bg: $gray-extremely-light;
 $footer-top-bar-border: $gray-semi;
+
+$pop-up-bg: $blue-transparent-semi;
+$pop-up-form-bg: $white;
+$pop-up-form-input-border: $blue;
+$pop-up-form-submit-button-bg: $blue-transparent-semi;

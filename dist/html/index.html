@@ -7,7 +7,23 @@
     <link rel="stylesheet" href="../static/css/main.css"/>
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper" id="wrapper">
+      <div class="form-container form-container_disabled" id="form-container">
+        <form class="consultation-form" id="consultation-form" name="consultation">
+          <button class="consultation-form__close-button" id="pop-up-close">
+            <svg class="consultation-form__close-button-svg icon icon-cross">
+              <use xlink:href="../static/images/svg_sprite/symbol/sprite.svg#cross"></use>
+            </svg>
+          </button>
+          <label class="consultation-form__title" for="consultation-form">Консультация</label>
+          <h3 class="consultation-form__sub-title">Оставьте номер телефона и имя, мы свяжемся с Вами для консультации!</h3>
+          <label class="consultation-form__label" for="name">Ваше имя</label>
+          <input class="consultation-form__input" id="name" type="text" name="name"/>
+          <label class="consultation-form__label" for="phone">Номер телефона для связи</label>
+          <input class="consultation-form__input" id="phone" type="tel" name="phone"/>
+          <button class="consultation-form__submit-button" type="submit">Отправить</button>
+        </form>
+      </div>
       <header class="header">
         <div class="content">
           <div class="header__top-bar">
@@ -33,7 +49,7 @@
                   <div class="contacts__free-call">звонок бесплатный</div>
                 </div>
               </div>
-              <button class="header__contact-button">КОНСУЛЬТАЦИЯ</button>
+              <button class="header__contact-button" id="consultation-button">КОНСУЛЬТАЦИЯ</button>
             </div>
           </div>
           <div class="header__bottom-bar">
@@ -376,6 +392,7 @@
     </div>
     <script src="../static/js/libs/jquery.min.js"></script>
     <script src="../static/js/libs/slick.min.js"></script>
+    <script src="../static/js/form.js"></script>
     <script src="../static/js/slider.js"></script>
     <script src="../static/js/clear-filter.js"></script>
   </body>

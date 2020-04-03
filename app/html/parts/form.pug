@@ -1,0 +1,13 @@
+#form-container.form-container.form-container_disabled
+    form#consultation-form(name="consultation").consultation-form
+        button#pop-up-close.consultation-form__close-button
+            svg.consultation-form__close-button-svg.icon.icon-cross
+                        use(xlink:href='../static/images/svg_sprite/symbol/sprite.svg#cross')
+        label(for="consultation-form").consultation-form__title Консультация
+        h3.consultation-form__sub-title Оставьте номер телефона и имя, мы свяжемся с Вами для консультации!
+        label(for="name").consultation-form__label Ваше имя
+        input#name(type="text", name="name").consultation-form__input
+        label(for="phone").consultation-form__label Номер телефона для связи
+        input#phone(type="tel", name="phone").consultation-form__input
+        button(type="submit").consultation-form__submit-button Отправить
+        
