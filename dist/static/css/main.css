@@ -9056,7 +9056,7 @@ body {
     font-size: 14px;
     height: 46px;
     margin-left: 30px;
-    padding: 15px 20px;
+    padding: 0 20px;
     width: 152px; }
   .header__bottom-bar {
     -webkit-box-align: center;
@@ -9073,7 +9073,8 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding-right: 15px;
-    width: 100%; }
+    width: 100%;
+    padding-top: 25px; }
   .header__production {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -9367,12 +9368,14 @@ body {
 
 .catalog {
   color: #333;
-  padding-bottom: 80px; }
+  padding-bottom: 80px;
+  padding-top: 50px; }
   .catalog__title {
     font-family: 'Fira-Sans-Bold', sans-serif;
     font-size: 32px;
     line-height: 140%;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 50px; }
   .catalog__filter {
     border-radius: 15px;
     -webkit-box-shadow: 0 0 18px rgba(171, 171, 175, 0.45);
@@ -9433,7 +9436,8 @@ body {
   font-family: 'Fira-Sans-Bold', sans-serif;
   font-size: 20px;
   line-height: 130%;
-  padding-left: 30px; }
+  padding-left: 30px;
+  margin-bottom: 35px; }
 
 .filter__sub-title-info {
   color: #999;
@@ -9459,6 +9463,9 @@ body {
   width: 20px; }
   .filter__checkbox:checked + .filter__label {
     font-family: 'Fira-Sans-Bold', sans-serif; }
+
+.filter__label {
+  margin-bottom: 0; }
 
 .filter__search-bar {
   display: -webkit-box;
@@ -9517,7 +9524,8 @@ body {
   font-family: 'Fira-Sans-Bold', sans-serif;
   font-size: 18px;
   line-height: 130%;
-  width: 70%; }
+  width: 70%;
+  margin-top: 20px; }
 
 .catalog-item__description {
   font-size: 16px;
