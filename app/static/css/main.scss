@@ -1,10 +1,15 @@
 @import 'normalize';
 @import 'color_palette';
-@import 'libs/slick.scss';
-@import 'libs/slick-theme.scss';
+@import 'breakpoints';
+@import 'mixins';
 @import 'sprite';
 @import 'fonts';
+
+@import 'libs/slick.scss';
+@import 'libs/slick-theme.scss';
+
 @import 'common';
+
 @import 'form';
 @import 'header';
 @import 'about-section';

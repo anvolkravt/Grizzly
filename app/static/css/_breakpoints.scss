@@ -1,0 +1,12 @@
+$desktop-large-min: 1200px;
+
+$desktop-max: $desktop-large-min - 1;
+$desktop-min: 992px;
+
+$tablet-max: $desktop-min - 1;
+$tablet-min: 768px;
+
+$phone-max: $tablet-min - 1;
+$phone-min: 576px;
+
+$phone-small-max: $phone-min - 1;

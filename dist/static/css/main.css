@@ -308,6 +308,96 @@ template {
 [hidden] {
   display: none; }
 
+.icon {
+  display: inline-block;
+  fill: currentColor;
+  height: 1em;
+  width: 1em; }
+
+.icon-OK {
+  font-size: 1.8rem;
+  width: 0.66667em; }
+
+.icon-arrow-left {
+  font-size: 1.9rem;
+  width: 0.57895em; }
+
+.icon-arrow-right {
+  font-size: 1.9rem;
+  width: 0.57895em; }
+
+.icon-cross {
+  font-size: 1.1rem;
+  width: 0.90909em; }
+
+.icon-facebook {
+  font-size: 1.8rem;
+  width: 0.61111em; }
+
+.icon-flag {
+  font-size: 1.8rem;
+  width: 0.77778em; }
+
+.icon-inline--tick {
+  font-size: 1rem;
+  width: 1.4em; }
+
+.icon-instagram {
+  font-size: 1.6rem;
+  width: 1em; }
+
+.icon-loupe {
+  font-size: 2rem;
+  width: 1em; }
+
+.icon-play {
+  font-size: 3.2rem;
+  width: 0.90625em; }
+
+.icon-question {
+  font-size: 1.1rem;
+  width: 0.72727em; }
+
+.icon-tick {
+  font-size: 1rem;
+  width: 1.4em; }
+
+.icon-twitter {
+  font-size: 1.5rem;
+  width: 1.2em; }
+
+.icon-vk {
+  font-size: 1.1rem;
+  width: 1.81818em; }
+
+.icon-youtube {
+  font-size: 1.3rem;
+  width: 1.53846em; }
+
+@font-face {
+  font-family: 'Fira-Sans-Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: url(../fonts/Fira-Sans/FiraSans-Bold.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Fira-Sans-Italic';
+  font-style: italic;
+  font-weight: normal;
+  src: url(../fonts/Fira-Sans/FiraSans-Italic.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Fira-Sans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Fira-Sans/FiraSansMedium.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Fira-Sans-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Fira-Sans/FiraSans.woff) format("woff"); }
+
 /* Slider */
 .slick-slider {
   -webkit-box-sizing: border-box;
@@ -510,96 +600,6 @@ template {
     .slick-dots li.slick-active button::before {
       color: black;
       opacity: 0.75; }
-
-.icon {
-  display: inline-block;
-  fill: currentColor;
-  height: 1em;
-  width: 1em; }
-
-.icon-OK {
-  font-size: 1.8rem;
-  width: 0.66667em; }
-
-.icon-arrow-left {
-  font-size: 1.9rem;
-  width: 0.57895em; }
-
-.icon-arrow-right {
-  font-size: 1.9rem;
-  width: 0.57895em; }
-
-.icon-cross {
-  font-size: 1.1rem;
-  width: 0.90909em; }
-
-.icon-facebook {
-  font-size: 1.8rem;
-  width: 0.61111em; }
-
-.icon-flag {
-  font-size: 1.8rem;
-  width: 0.77778em; }
-
-.icon-inline--tick {
-  font-size: 1rem;
-  width: 1.4em; }
-
-.icon-instagram {
-  font-size: 1.6rem;
-  width: 1em; }
-
-.icon-loupe {
-  font-size: 2rem;
-  width: 1em; }
-
-.icon-play {
-  font-size: 3.2rem;
-  width: 0.90625em; }
-
-.icon-question {
-  font-size: 1.1rem;
-  width: 0.72727em; }
-
-.icon-tick {
-  font-size: 1rem;
-  width: 1.4em; }
-
-.icon-twitter {
-  font-size: 1.5rem;
-  width: 1.2em; }
-
-.icon-vk {
-  font-size: 1.1rem;
-  width: 1.81818em; }
-
-.icon-youtube {
-  font-size: 1.3rem;
-  width: 1.53846em; }
-
-@font-face {
-  font-family: 'Fira-Sans-Bold';
-  font-style: normal;
-  font-weight: bold;
-  src: url(../fonts/Fira-Sans/FiraSans-Bold.woff) format("woff"); }
-
-@font-face {
-  font-family: 'Fira-Sans-Italic';
-  font-style: italic;
-  font-weight: normal;
-  src: url(../fonts/Fira-Sans/FiraSans-Italic.woff) format("woff"); }
-
-@font-face {
-  font-family: 'Fira-Sans-Medium';
-  font-style: normal;
-  font-weight: 500;
-  src: url(../fonts/Fira-Sans/FiraSansMedium.woff) format("woff"); }
-
-@font-face {
-  font-family: 'Fira-Sans-Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: url(../fonts/Fira-Sans/FiraSans.woff) format("woff"); }
 
 body {
   font-family: 'Fira-Sans-Regular', sans-serif; }
