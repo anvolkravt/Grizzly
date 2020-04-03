@@ -1,0 +1,229 @@
+.get-info {
+  background: $get-info-bg;
+  color: $text-primary;
+  margin-bottom: 40px;
+
+  .content {
+    padding: 60px 0 40px;
+  }
+
+  &__title {
+    color: $text-primary;
+    font-family: 'Fira-Sans-Bold', sans-serif;
+    font-size: 26px;
+    line-height: 150%;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  &__ways {
+    background: $get-info-ways-bg;
+    border-radius: 15px;
+    box-shadow: 0 0 6px $box-shadow;
+    height: 632px;
+    overflow: hidden;
+  }
+
+  &__ways-list {
+    background: $get-info-tabs-bg;
+    font-family: 'Fira-Sans-Bold', sans-serif;
+    font-size: 20px;
+    height: 68px;
+  }
+
+  &__ways-item {
+    & > .active.nav-link {
+      background: $get-info-tabs-bg-active;
+    }
+  }
+
+  &__ways-link {
+    color: $text-get-info-tabs;
+    font-size: 20px;
+    height: 100%;
+    line-height: 100%;
+    padding-top: 22px;
+    text-align: center;
+
+    &.active.nav-link {
+      color: $text-get-info-tabs-active;
+    }
+  }
+
+  &__ways-item {
+    flex-grow: 1;
+  }
+
+  &__content {
+    padding: 30px 25px 80px 30px;
+  }
+
+  &__faq.tab-pane {
+    display: flex;
+  }
+
+  .slider {
+    &__body {
+      padding: 0 10px;
+      width: 580px;
+    }
+
+    &__faq-item {
+      border-radius: 15px;
+      box-shadow: 0 0 8px $get-info-faq-box-shadow;
+      height: 396px;
+      margin: 0 10px;
+      overflow: hidden;
+      position: relative;
+      width: 270px;
+    }
+  }
+}
+
+.faq {
+  &__info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    text-align: center;
+    width: 415px;
+  }
+
+  &__text {
+    line-height: 150%;
+    margin-bottom: 25px;
+
+    &_highlighted {
+      color: $text-secondary;
+      display: block;
+      font-family: 'Fira-Sans-Italic', sans-serif;
+    }
+  }
+
+  &__text-svg,
+  &__link-svg {
+    color: $get-info-svg;
+    font-size: 20px;
+  }
+
+  &__text-svg {
+    margin-right: 4px;
+  }
+
+  &__link-svg {
+    margin-right: 10px;
+  }
+
+  &__link {
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0 0 6px $get-info-faq-box-shadow;
+    display: flex;
+    height: 46px;
+    justify-content: center;
+    width: 152px;
+  }
+
+  &__slider {
+    align-items: center;
+    display: flex;
+  }
+}
+
+.faq-item {
+  &__add-to-file-button {
+    background: inherit;
+    border: none;
+    color: $faq-item-add-to-file-button-svg;
+    font-size: 26px;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+  }
+
+  &__image-wrapper {
+    background: $faq-item-image-bg;
+    height: 180px;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: '';
+      height: 150px;
+      position: absolute;
+      top: 15px;
+    }
+
+    &::before {
+      background: $faq-item-book1-bg;
+      left: 83px;
+      width: 12px;
+    }
+
+    &::after {
+      background: $faq-item-book2-bg;
+      left: 95px;
+      width: 93px;
+    }
+  }
+
+  &__image {
+    position: absolute;
+    right: 50%;
+    top: 45px;
+    transform: translateX(70%);
+    width: 45px;
+    z-index: 1;
+  }
+
+  &__text {
+    padding: 20px;
+  }
+
+  &__title {
+    font-family: 'Fira-Sans-Bold', sans-serif;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  &__author {
+    font-family: 'Fira-Sans-Italic', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 30px;
+  }
+
+  &__parameters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__parameters-item {
+    align-items: center;
+    border-radius: 6px;
+    display: flex;
+    font-size: 14px;
+    height: 26px;
+    justify-content: center;
+    margin-right: 6px;
+    margin-top: 6px;
+    padding: 6px 10px;
+
+    &_type,
+    &_else {
+      background: $faq-item-parameter-type-bg;
+      color: $text-faq-item-parameter-type;
+    }
+
+    &_delivery {
+      background: $faq-item-parameter-delivery-bg;
+      color: $text-faq-item-parameter-delivery;
+    }
+
+    &_equipment {
+      background: $faq-item-parameter-equipment-bg;
+      color: $text-faq-item-parameter-equipment;
+    }
+  }
+}

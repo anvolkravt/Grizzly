@@ -14,6 +14,13 @@ $blue-transparent-low: rgba(12, 77, 162, .7);
 $blue-transparent-semi: rgba(12, 77, 162, .6);
 $blue-transparent-high: rgba(12, 77, 162, .2);
 $blue-transparent-extremely: rgba(12, 77, 162, .07);
+$blue-transparent-almost-invisible: rgba(12, 77, 162, .04);
+
+$green: #00b5bd;
+$green-transparent: rgba(0, 181, 189, .2);
+
+$orange: #f7b512;
+$orange-transparent: rgba(247, 181, 18, .2);
 
 $text-primary: $gray-dark;
 $text-secondary: $gray;
@@ -25,6 +32,13 @@ $text-about-section-active-link: $blue;
 $text-about-section-aside-link: $blue;
 
 $text-catalog-card-parameter: $blue;
+
+$text-get-info-tabs: $blue-transparent-semi;
+$text-get-info-tabs-active: $white;
+
+$text-faq-item-parameter-type: $blue;
+$text-faq-item-parameter-delivery: $green;
+$text-faq-item-parameter-equipment: $orange;
 
 $box-shadow: $gray-transparent;
 
@@ -50,6 +64,21 @@ $filter-search-bg: $blue-transparent-extremely;
 $filter-loupe: $blue-transparent-low;
 
 $catalog-card-parameter-bg: $blue-transparent-high;
+
+$get-info-bg: $blue-transparent-extremely;
+$get-info-ways-bg: $white;
+$get-info-tabs-bg: $blue-transparent-almost-invisible;
+$get-info-tabs-bg-active: $blue;
+$get-info-svg: $blue;
+$get-info-faq-box-shadow: $blue-transparent-high;
+
+$faq-item-image-bg: $blue-transparent-almost-invisible;
+$faq-item-add-to-file-button-svg: $blue-transparent-high;
+$faq-item-parameter-type-bg: $blue-transparent-high;
+$faq-item-parameter-delivery-bg: $green-transparent;
+$faq-item-parameter-equipment-bg: $orange-transparent;
+$faq-item-book1-bg: $blue-transparent-semi;
+$faq-item-book2-bg: $white;
 
 $footer-bg: $gray-extremely-light;
 $footer-top-bar-border: $gray-semi;

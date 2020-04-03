@@ -20,3 +20,15 @@ $(document).ready(function() {
     nextArrow: $('#pagination-catalog-next')
   });
 });
+
+$(document).ready(function() {
+  $('#slider-faq').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    prevArrow: $('#pagination-faq-prev'),
+    nextArrow: $('#pagination-faq-next')
+  });
+});

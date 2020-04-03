@@ -4,14 +4,13 @@
 @import 'mixins';
 @import 'sprite';
 @import 'fonts';
-
+@import '../../../node_modules/bootstrap/scss/bootstrap';
 @import 'libs/slick.scss';
 @import 'libs/slick-theme.scss';
-
 @import 'common';
-
 @import 'form';
 @import 'header';
 @import 'about-section';
 @import 'catalog';
+@import 'get-info';
 @import 'footer';

@@ -12,10 +12,7 @@ html(lang="en")
             main
                 include parts/about-section.pug
                 include parts/catalog.pug
+                include parts/get-info.pug
             include parts/footer.pug
         
-        script(src="../static/js/libs/jquery.min.js")
-        script(src="../static/js/libs/slick.min.js")
-        script(src="../static/js/form.js")
-        script(src="../static/js/slider.js")
-        script(src="../static/js/clear-filter.js")
+        include parts/scripts.pug

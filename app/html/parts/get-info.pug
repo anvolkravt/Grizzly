@@ -1,0 +1,37 @@
+section#connection-ways.get-info
+    .content
+        h2.get-info__title ШЕСТЬ способов получить информацию
+        .get-info__ways
+            ul.get-info__ways-list.nav.nav-tabs
+                li.get-info__ways-item.nav-item
+                    a.get-info__ways-link.nav-link(href="#my-file", data-toggle="tab") 01 Мой файл
+                li.get-info__ways-item.nav-item
+                    a.get-info__ways-link.nav-link(href="#video", data-toggle="tab") 02 Видео 1х1
+                li.get-info__ways-item.nav-item
+                    a.get-info__ways-link.nav-link(href="#vebinar", data-toggle="tab") 03 Заказать вебинар
+                li.get-info__ways-item.nav-item
+                    a.get-info__ways-link.nav-link(href="#employee", data-toggle="tab") 04 Сотрудники
+                li.get-info__ways-item.nav-item
+                    a.get-info__ways-link.nav-link.active(href="#faq", data-toggle="tab") 05 FAQ
+            .get-info__content.tab-content
+                #my-file.get-info__content-item.tab-pane Мой файл
+                #video.get-info__content-item.tab-pane Видео 1х1
+                #vebinar.get-info__content-item.tab-pane Заказать вебинар
+                #employee.get-info__content-item.tab-pane Сотрудники
+                #faq.get-info__content-item.get-info__faq.tab-pane.active
+                    .faq__info
+                        p.faq__text Cохраняйте все полезные материалы на нашем сайте в один документ, который будет сгенерирован в удобном виде в формате PDF
+                        p.faq__text Помечайте 
+                            svg.faq__text-svg.icon.icon-flag
+                                use(xlink:href='../static/images/svg_sprite/symbol/sprite.svg#flag')
+                            | необходимые материалы 
+                            span.faq__text_highlighted (статьи, изображения, инструкции, новости и.т.д.)
+                        p.faq__text Зайдите в Мой файл и нажмите кнопку “Сгенерировать”
+                        p.faq__text Получите готовый документ на e-mail
+                        p.faq__text Или выберите один из готовых файлов, собранный нашими специалистами по интересующей вас теме
+                        a(href="#").faq__link
+                            svg.faq__link-svg.icon.icon-flag
+                                use(xlink:href='../static/images/svg_sprite/symbol/sprite.svg#flag')
+                            | МОЙ ФАЙЛ
+                    .faq__slider
+                        include slider-faq.pug
